@@ -1,5 +1,19 @@
 # Currency Conversion Agent with Google ADK
 
+## Interactive Streamlit app
+
+A companion application is available in [streamlit_app/app.py](streamlit_app/app.py).
+
+```bash
+python -m pip install -r streamlit_app/requirements.txt
+python -m streamlit run streamlit_app/app.py
+```
+
+This calculator uses Decimal arithmetic and a visitor-supplied rate. It does not run the ADK agent or fetch market rates.
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for Community Cloud setup, validation coverage, and runtime requirements. A live deployment is not yet confirmed.
+
+
 An educational notebook exploring a Gemini-powered agent for currency conversion prompts, input formatting, and retry configuration.
 
 ## Why this project matters
