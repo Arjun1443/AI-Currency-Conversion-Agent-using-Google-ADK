@@ -1,5 +1,8 @@
 # Currency Conversion Agent with Google ADK
 
+[**Launch Currency Conversion Studio →**](https://ai-currency-conversion-agent-using-app-ad.streamlit.app/) · [Deployment guide](DEPLOYMENT.md)
+
+
 ## Interactive Streamlit app
 
 A companion application is available in [streamlit_app/app.py](streamlit_app/app.py).
@@ -11,7 +14,7 @@ python -m streamlit run streamlit_app/app.py
 
 This calculator uses Decimal arithmetic and a visitor-supplied rate. It does not run the ADK agent or fetch market rates.
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for Community Cloud setup, validation coverage, and runtime requirements. A live deployment is not yet confirmed.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for Community Cloud setup, validation coverage, and runtime requirements. Deployment URL supplied by the project owner: https://ai-currency-conversion-agent-using-app-ad.streamlit.app/
 
 
 An educational notebook exploring a Gemini-powered agent for currency conversion prompts, input formatting, and retry configuration.
